@@ -29,7 +29,7 @@ function preImg() {
   IMAGE[0].src = LINKLIST[nagykep - 1];
   nagykep = nagykep - 1;
   if (nagykep == 0) {
-    nagykep = 7;
+    nagykep = 8;
   } else {
   }
 }
@@ -38,7 +38,7 @@ function nextImg() {
   const IMAGE = document.querySelectorAll("section div img");
   IMAGE[0].src = LINKLIST[nagykep + 1];
   nagykep = nagykep + 1;
-  if (nagykep == 7) {
+  if (nagykep == 8) {
     nagykep = 0;
   } else {
   }
