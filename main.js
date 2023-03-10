@@ -36,7 +36,7 @@ function preImg() {
 
 function nextImg() {
   const IMAGE = document.querySelectorAll("section div img");
-  IMAGE[0].src = LINKLIST[nagykep + 1];
+  image[0].src = LINKLIST[nagykep + 1];
   nagykep = nagykep + 1;
   if (nagykep == 7) {
     nagykep = 0;
