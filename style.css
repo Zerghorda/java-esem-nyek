@@ -1,4 +1,28 @@
-img{
-    height: 400px;
-    width: 400px;
+* {
+  margin: 0;
+  padding: 0;
+}
+#nagy {
+  width: 500px;
+  text-align: center;
+}
+section {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+section div {
+  text-align: center;
+}
+ul {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+li {
+  list-style: none;
+}
+article > ul > li > img {
+  height: 200px;
+  width: 200px;
 }
